@@ -1,0 +1,23 @@
+<template>
+    <div>
+        <p>{{name1}}</p>
+    </div>    
+</template>
+<script>
+export default{
+    name:"Hiii234aeAAA",
+    props:{
+        message:String,
+    },
+    data(){
+        return{
+            name1:'amrutha',
+        }
+    },
+      methods:{
+      fun(){
+      this.name1.$emit('func');
+     }
+     }
+}
+</script>
